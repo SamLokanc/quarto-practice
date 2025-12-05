@@ -4,6 +4,8 @@ author: "Tiffany Timbers & Jordan Bourak"
 format: 
     html:
         toc: true
+    pdf:
+        toc: true
 bibliography: references.bib
 editor: source
 ---
@@ -36,7 +38,7 @@ as well as Quarto [@Allaire_Quarto_2022].
 ### Results
 ::: {#fig-horse-pops}
 
-![](../results/horse_pops_plot.png)
+![](../results/horse_pops_plot.png){width=80%}
 
 Horse populations over time for all provinces in Canada from 1906 - 1972.
 :::
